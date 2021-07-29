@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/assets-utility" mode="merge"/>
+    <filter root="/content/assets-utility" mode="merge"/>
+    <filter root="/content/dam/assets-utility" mode="merge"/>
+</workspaceFilter>
