@@ -12,10 +12,10 @@ public @interface S3Configuration {
 	String getBucketName() default "null";
 	
 	@AttributeDefinition(name="AccessKey", description="Enter your access key id",type=AttributeType.STRING)
-	String getAccessKey() default "AKIA2SRKZDR4A6EUEZGZ";
+	String getAccessKey() default "";
 	
 	@AttributeDefinition(name="SecretKey", description="Enter your secret key id",type=AttributeType.STRING)
-	String getSecretKey() default "MwDeyqDd941hJn2wjuyvjvDEelYr90aHcTRvUa/q";
+	String getSecretKey() default "";
 	
 	@AttributeDefinition(name="ClientRegion", description="Select your region",type=AttributeType.STRING)
 	String getRegion() default "AP_South_1";
